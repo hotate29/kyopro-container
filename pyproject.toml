@@ -11,5 +11,10 @@ dependencies = [
     "scipy==1.10.1",
 ]
 
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.4",
+]
+
 [tool.uv.sources]
 ac-library-python = { git = "https://github.com/not522/ac-library-python" }
