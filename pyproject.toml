@@ -1,0 +1,15 @@
+[project]
+name = "kyopro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ac-library-python",
+    "numba==0.57.0",
+    "numpy==1.24.1",
+    "scipy==1.10.1",
+]
+
+[tool.uv.sources]
+ac-library-python = { git = "https://github.com/not522/ac-library-python" }
