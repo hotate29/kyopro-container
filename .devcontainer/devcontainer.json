@@ -9,9 +9,8 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/devcontainers/features/python:1": {
-			"version": "3.11"
-		}
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/va-h/devcontainers-features/uv:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -25,10 +24,11 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"ms-python.debugpy",
 				"ms-vscode.cpptools",
 				"github.copilot",
-				"github.copilot-chat"
+				"github.copilot-chat",
+				"usernamehw.errorlens",
+				"charliermarsh.ruff"
 			]
 		}
 	},
